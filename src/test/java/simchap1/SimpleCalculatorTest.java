@@ -22,7 +22,6 @@ public class SimpleCalculatorTest {
 		
 	}
 		@Test
-
 		public void testMulti() {
 			SimpleCalculator chap = new SimpleCalculator();
 			chap.multi(10, 20);
@@ -35,6 +34,15 @@ public class SimpleCalculatorTest {
 			SimpleCalculator chap = new SimpleCalculator();
 			chap.div(100, 20);
 			assertEquals(5,chap.getResult());
+		
+		
+	}
+		public void testInc() {
+			SimpleCalculator chap = new SimpleCalculator();
+			chap.inc(100);
+			assertEquals(100,chap.getResult());
+			chap.inc(200);
+			assertEquals(300,chap.getResult());
 		
 		
 	}

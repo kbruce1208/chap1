@@ -21,5 +21,13 @@ public class SimpleCalculatorTest {
 		
 		
 	}
+		@Test
+		public void testMulti() {
+			SimpleCalculator chap = new SimpleCalculator();
+			chap.multi(10, 20);
+			assertEquals(200,chap.getResult());
+		
+		
+	}
 
 }

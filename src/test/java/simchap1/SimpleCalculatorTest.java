@@ -30,13 +30,10 @@ public class SimpleCalculatorTest {
 		
 	}
 
-		public void testDiv() {
-			SimpleCalculator chap = new SimpleCalculator();
-			chap.div(100, 20);
-			assertEquals(5,chap.getResult());
 		
 		
-	}
+		
+	
 		public void testInc() {
 			SimpleCalculator chap = new SimpleCalculator();
 			chap.inc(100);
